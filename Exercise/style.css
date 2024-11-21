@@ -7,6 +7,7 @@
 .navtag {
     background-color: rgb(255, 223, 181);
     padding: 1rem;
+    border: 1px solid black;
 }
 
 .nav {
@@ -20,7 +21,6 @@
     display: flex;
     list-style: none;
     gap: 30px;
-
 }
 
 .navitems a {
@@ -32,9 +32,15 @@
 }
 
 .logo {
-    font-weight: bolder;
+    /* font-weight: bolder; */
     align-content: center;
-    font-size: x-large;
+    /* font-size: x-large; */
+}
+
+.logoimg {
+    height: 50px;
+    width: 50px;
+    mix-blend-mode: color-burn;
 }
 
 /* welcome image */
@@ -55,9 +61,10 @@
 
 .text1 {
     font-weight: bold;
+    text-shadow: 2px 2px 15px white;
     color: aliceblue;
-    background-color: black;
-    text-decoration: dashed;
+    /* background-color: black; */
+    /* text-decoration: dashed; */
 }
 
 /* textbox */
@@ -65,17 +72,17 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 16px 8px;
     justify-content: space-between;
     margin-top: 30px;
-
 }
 
 .textBox1 {
-    flex-basis: 250px;
+    flex-basis: 260px;
     background-color: bisque;
     padding: 6px;
-
+    box-shadow: 2px 2px 5px black;
+    border-radius: 6px;
 }
 
 .text2 {
@@ -93,41 +100,77 @@
     /* position: relative; */
     /* max-width: 950px; */
     margin-top: 40px;
-
 }
 
 .img2 {
     z-index: 0;
     /* position: absolute;
     left: 0; */
-
 }
 
 .textBox2 {
- 
+
     /* position: absolute; */
     background-color: beige;
     /* height: 300px; */
     /* left: 300px; */
     /* flex-grow: 0; */
-
 }
-.text3{
-       padding: 8px;
+
+.text3 {
+    padding: 8px;
 }
 
 /* .contactinfo */
 .contact {
+    border: 1px solid black;
+    box-shadow: 1px 1px 4px black;
     margin-top: 50px;
-    border: 2px solid black;
-    padding: 20px;
-    box-shadow: 2px 2px 10px black;
-
 }
-.text4{
+
+.text4 {
     font-weight: bold;
     text-align: center;
 }
-.section{padding:0 70px;
-    
+
+.section {
+    padding: 0 70px;
+
+}
+
+.form1 {
+    /* margin: 20px; */
+    padding: 60px;
+}
+
+.footer {
+    background-color: rgb(250, 182, 99);
+    height: 50px;
+    position: relative;
+    margin-top: 30px;
+}
+
+.text5 {
+    /* text-align: center; */
+    color: black;
+    position: absolute;
+    margin: 0;
+    right: 10px;
+    bottom: 2px;
+    /* font-style: italic; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: 12px;
+    text-shadow: 2px 2px 10px;
+}
+
+.text6 {
+    position: absolute;
+    /* text-align: center; */
+    top: 2px;
+    left: 490px;
+}
+
+hr {
+    box-shadow: 4px 4px 4px black;
 }
